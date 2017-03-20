@@ -13,7 +13,7 @@ test('plugin must be function', t => {
 	t.true(typeof clone === 'function');
 });
 
-test('should return reject', async t => {
+test('should return reject', t => {
 	t.throws(clone()());
 });
 
