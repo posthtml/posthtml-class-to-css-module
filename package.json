@@ -43,8 +43,12 @@
     "html",
     "posthtml",
     "posthtml-plugin",
-    "remove",
-    "tags"
+    "css",
+    "modules",
+    "attributes",
+    "clone",
+    "copy",
+    "css-modules"
   ],
   "dependencies": {},
   "devDependencies": {
