@@ -34,7 +34,7 @@ posthtml()
     });
 
 ```
-Returns the html without the tags listed in option
+Returns the html with cloned classes in the attribute `css-module`
 
 ## Example
 
