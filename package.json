@@ -1,6 +1,6 @@
 {
   "name": "posthtml-class-to-css-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A posthtml plugin for removing tags",
   "license": "MIT",
   "repository": "GitScrum/posthtml-class-to-css-module",
