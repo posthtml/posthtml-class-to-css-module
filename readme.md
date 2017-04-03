@@ -56,6 +56,13 @@ Returns the html with cloned classes in the attribute `css-module`
 </html>
 ```
 
+## Options
+
+### `removeClass`
+Type: `Boolean`  
+Default: false  
+Description: *Removes the `class` attribute after cloning the `class` value to an attribute `css-module`*  
+
 ## LICENSE
 
 > MIT License (MIT)
