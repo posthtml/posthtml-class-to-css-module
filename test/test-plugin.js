@@ -3,9 +3,9 @@ import posthtml from 'posthtml';
 import isPromise from 'is-promise';
 import clone from '../src/index.js';
 
-function processing(html) {
+function processing(html, options) {
 	return posthtml()
-		.use(clone())
+		.use(clone(options))
 		.process(html);
 }
 
@@ -25,4 +25,10 @@ test('should clone to attribute css module', async t => {
 	const fixture = '<html><head></head><body class="my-class-to-body"></body></html>';
 	const expected = '<html><head></head><body class="my-class-to-body" css-module="my-class-to-body"></body></html>';
 	t.deepEqual(expected, (await processing(fixture)).html);
+});
+
+test('should remove attribute class after clone', async t => {
+	const fixture = '<html><head></head><body class="my-class-to-body"></body></html>';
+	const expected = '<html><head></head><body css-module="my-class-to-body"></body></html>';
+	t.deepEqual(expected, (await processing(fixture, {removeClass: true})).html);
 });
