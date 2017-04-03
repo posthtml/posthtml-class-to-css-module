@@ -45,7 +45,9 @@
     "copy",
     "css-modules"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^2.4.1"
+  },
   "devDependencies": {
     "ava": "*",
     "ava-codemods": "^0.3.2",
