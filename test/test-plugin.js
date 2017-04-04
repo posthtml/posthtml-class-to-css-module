@@ -1,6 +1,5 @@
 import test from 'ava';
 import posthtml from 'posthtml';
-import isPromise from 'is-promise';
 import clone from '../src/index.js';
 
 function processing(html, options) {
@@ -11,14 +10,6 @@ function processing(html, options) {
 
 test('plugin must be function', t => {
 	t.true(typeof clone === 'function');
-});
-
-test('should return reject', t => {
-	t.throws(clone()());
-});
-
-test('should return promise', t => {
-	t.true(isPromise(processing('')));
 });
 
 test('should clone to attribute css module', async t => {
