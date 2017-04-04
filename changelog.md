@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## 0.1.3 (2017-04-04)
+
+* 0.1.3 ([aac54c3](https://github.com/GitScrum/posthtml-class-to-css-module/commit/aac54c3))
+* style(package): fix path for readme in npm ([3d142c1](https://github.com/GitScrum/posthtml-class-to-css-module/commit/3d142c1))
+* refactor(*): remove promise ([d4388cb](https://github.com/GitScrum/posthtml-class-to-css-module/commit/d4388cb))
+* chore(changelog): Update changelog ([edc99d0](https://github.com/GitScrum/posthtml-class-to-css-module/commit/edc99d0))
+
+
+
 <a name="0.1.2"></a>
 ## 0.1.2 (2017-04-04)
 
