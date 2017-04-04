@@ -2,14 +2,18 @@ import Reflect from 'core-js/fn/reflect';
 
 const clone = tree => tree.match(
 	{attrs: {class: /.+/}},
-	node => Object.assign(node, Object.assign(node.attrs, {'css-module': node.attrs.class}))
+	node => {
+		node.attrs = Object.assign(node.attrs, {'css-module': node.attrs.class});
+
+		return node;
+	}
 );
 
 const removeClass = tree => tree.match(
 	{attrs: {class: /.+/}},
 	node => {
-		console.log(node);
-		delete node.attrs.class;
+		node.attrs = Object.keys(node.attrs)
+			.reduce((attrs, key) => Object.assign(attrs, key === 'class' ? {} : {[key]: node.attrs[key]}), {});
 
 		return node;
 	}

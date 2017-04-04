@@ -1,3 +1,13 @@
+<a name="0.1.1"></a>
+## 0.1.1 (2017-04-04)
+
+* 0.1.1 ([a9bdfd7](https://github.com/GitScrum/posthtml-class-to-css-module/commit/a9bdfd7))
+* fix(index): fix remove class ([19729b1](https://github.com/GitScrum/posthtml-class-to-css-module/commit/19729b1))
+* fix(package): fix version ([e441750](https://github.com/GitScrum/posthtml-class-to-css-module/commit/e441750))
+* chore(changelog): Update changelog ([7b21e0e](https://github.com/GitScrum/posthtml-class-to-css-module/commit/7b21e0e))
+
+
+
 <a name="0.0.2"></a>
 ## 0.0.2 (2017-04-03)
 
