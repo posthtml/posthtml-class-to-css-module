@@ -1,6 +1,6 @@
 {
   "name": "posthtml-class-to-css-module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A posthtml plugin for removing tags",
   "license": "MIT",
   "repository": "GitScrum/posthtml-class-to-css-module",
@@ -16,7 +16,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "lintjs": "eslint ./src/*.js ./test/*.js",
+    "lintjs": "eslint ./{src,test}/*.js",
     "lintmd": "eslint --ext md --rule indent: [error, 4] .",
     "pretest": "clinton && npm run lintjs && npm run lintmd",
     "commitmsg": "conventional-changelog-lint -e",
@@ -25,8 +25,7 @@
     "minor": "np minor --any-branch",
     "major": "np major --any-branch",
     "test": "nyc ava",
-    "clean": "rm -rf lib",
-    "build": "npm run clean && babel src -d lib",
+    "build": "rimraf lib && babel src -d lib",
     "prepublish": "npm run build",
     "update": "updtr && ava-codemods --force",
     "testen": "testen -n -- ava"
@@ -74,6 +73,7 @@
     "np": "^2.6.0",
     "nyc": "^10.1.2",
     "posthtml": "^0.9.0",
+    "rimraf": "^2.6.1",
     "testen": "^2.2.0",
     "updtr": "^1.0.0"
   },

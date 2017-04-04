@@ -1,3 +1,13 @@
+<a name="0.1.2"></a>
+## 0.1.2 (2017-04-04)
+
+* 0.1.2 ([231629a](https://github.com/GitScrum/posthtml-class-to-css-module/commit/231629a))
+* chore(changelog): Update changelog ([2ee2855](https://github.com/GitScrum/posthtml-class-to-css-module/commit/2ee2855))
+* chore(package): update clean and pattern lintjs ([18e6b0a](https://github.com/GitScrum/posthtml-class-to-css-module/commit/18e6b0a))
+* perf(index): remove double recursion ([680dddc](https://github.com/GitScrum/posthtml-class-to-css-module/commit/680dddc))
+
+
+
 <a name="0.1.1"></a>
 ## 0.1.1 (2017-04-04)
 
