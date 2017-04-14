@@ -56,7 +56,7 @@
     "babel-preset-babili": "0.0.12",
     "babel-preset-env": "^1.3.2",
     "babel-register": "^6.11.6",
-    "clinton": "^0.11.0",
+    "clinton": "^0.12.0",
     "conventional-changelog-cli": "^1.2.0",
     "conventional-changelog-lint": "^1.1.8",
     "coveralls": "^2.13.0",
