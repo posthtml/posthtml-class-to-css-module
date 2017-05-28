@@ -68,7 +68,7 @@
     "eslint-plugin-markdown": "^1.0.0-beta.2",
     "eslint-plugin-require-path-exists": "^1.1.5",
     "eslint-plugin-xo": "^1.0.0",
-    "husky": "^0.13.2",
+    "husky": "^0.13.4",
     "is-promise": "^2.1.0",
     "np": "^2.13.3",
     "nyc": "^10.2.0",
