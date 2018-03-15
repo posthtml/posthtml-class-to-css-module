@@ -3,9 +3,9 @@
   "version": "0.1.3",
   "description": "A posthtml plugin for removing tags",
   "license": "MIT",
-  "repository": "GitScrum/posthtml-class-to-css-module",
-  "homepage": "github.com/GitScrum/posthtml-class-to-css-module#readme",
-  "bugs": "GitScrum/posthtml-class-to-css-module/issues",
+  "repository": "posthtml/posthtml-class-to-css-module",
+  "homepage": "github.com/posthtml/posthtml-class-to-css-module#readme",
+  "bugs": "posthtml/posthtml-class-to-css-module/issues",
   "author": {
     "name": "Ivan Demidov",
     "email": "Scrum@list.ru",
